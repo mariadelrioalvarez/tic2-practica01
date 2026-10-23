@@ -1,0 +1,9 @@
+.bordeartitulos {
+    border: 3px solid #fac7ff;
+    padding: 1rem;
+  }
+  
+  .subrayar {
+    margin-top: 50;
+    background-color: rgb(240, 168, 198);
+  }
