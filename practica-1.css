@@ -1,79 +1,75 @@
+/* Acordeones generales */
 .accordion-item {
     background-color: #f46874;
 }
 
 .accordion-button {
-    background-color:#f46874;
-    color: #f46874;
+    background-color: #f46874;
+    color: #212529;
 }
 
 .accordion-button:not(.collapsed) {
     background-color: #f46874;
-    color:#f46874;
+    color: #212529;
     box-shadow: none;
 }
 
-
 .accordion-body {
-    background-color:#f46874;
-    color:#f46874;
+    background-color: #f46874;
+    color: #212529;
 }
 
 
+/* Texto subrayado */
 .subrayar {
     background-color: rgb(231, 58, 130);
 }
 
-.border-success {
-  --bs-border-opacity: 1;
-  border-color: rgba(var(25, 135, 84), var(--bs-border-opacity)) !important;
-}
 
+/* Tipo de letra */
 body,
 body * {
     font-family: "Times New Roman", Times, serif !important;
 }
 
+
+/* Tablas */
 table {
     background-color: #f3cace;
 }
 
-#accordionIE .accordion-button {
-    color: #e6858d !important;
-    background-color: #f8d7da !important;
-}
 
-#accordionIE .accordion-body {
+/* Acordeones de IE, CEU e ICADE: Dónde se encuentran */
+#accordionIE .accordion-button,
+#accordionCEU .accordion-button,
+#accordionICADE .accordion-button {
+    background-color: #f8d7da !important;
     color: #212529 !important;
-    background-color: #f8d7da !important;
 }
 
-#accordionCEU .accordion-button {
-    color: #e6858d !important;
+#accordionIE .accordion-body,
+#accordionCEU .accordion-body,
+#accordionICADE .accordion-body {
     background-color: #f8d7da !important;
-}
-
-#accordionCEU .accordion-body {
-    color: #e6858d !important;
-    background-color: #f8d7da !important;
-}
-
-#accordionIE .accordion-button {
-    color: #e6858d !important;
-    background-color: #f8d7da !important;
-}
-
-#accordionIE .accordion-body {
     color: #212529 !important;
-    background-color: #f8d7da !important;
 }
 
-#accordionCEU .accordion-button {
-    color: #e6858d !important;
+
+/* Asignaturas y créditos: IE */
+#flush-collapseTwo .accordion-body {
     background-color: #f8d7da !important;
+    color: #212529 !important;
 }
 
-#accordionCEU .accordion-body {
-    color: #e6858d !important;
-    background-color: #f8d7da !important;
+#flush-collapseTwo .accordion-body a {
+    color: #212529 !important;
+}
+
+.borde {
+    border: 2px solid #e7a7b3;
+    padding: 10px;
+    border-radius: 8px;
+}
+.subrayarclaro {
+    background-color: rgb(240, 144, 184);
 }
